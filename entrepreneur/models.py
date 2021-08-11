@@ -3,7 +3,6 @@ from django.contrib.auth.models import PermissionsMixin
 from django.db import models
 
 from auth_em.settings import MEDIA_URL, STATIC_URL
-from entrepreneur.choices import tyIdentify
 
 
 class UsuarioProfileManager(BaseUserManager):

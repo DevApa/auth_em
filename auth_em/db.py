@@ -17,10 +17,10 @@ MYSQL = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_mies',
-        'USER': 'admin',
-        'PASSWORD': 'admin2021',
+        'USER': 'root',
+        'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '3306',
     },
     'OPTIONS': {
         'init_command': 'SET default_storage_engine=INNODB'

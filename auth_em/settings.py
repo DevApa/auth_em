@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'auth_em.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = db.POSTGRESQL
+DATABASES = db.MYSQL
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

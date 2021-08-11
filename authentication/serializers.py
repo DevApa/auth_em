@@ -20,7 +20,7 @@ class UserListSerializers(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
-        exclude = ['last_login', 'is_superuser', 'is_admin', 'created_at', 'updated_at', 'groups', 'user_permissions', 'is_active']
+        exclude = ['last_login', 'is_superuser', 'is_admin', 'created_at', 'updated_at', 'groups', 'user_permissions', 'is_active', 'is_evaluator']
 
     def create(self, validated_data):
         user = Usuario(**validated_data)
